@@ -1,14 +1,9 @@
-.container {
-    display: flex;
-    gap: 10px;
-    padding: 10px
-}
-
 .button {
     height: calc(var(--unit) * 12);
     font-size: var(--font-size-text-m);
-    font-weight: var(--font-weights-regular);
-    min-width: calc(var(--unit) * 47);
+    font-weight: var(--font-weight-medium);
+    padding: calc(var(--unit) * 3) calc(var(--unit) * 16);
+    line-height: var(--line-height-xs);
     border-radius: 8px;
     text-align: center;
     border: none;
@@ -17,7 +12,6 @@
 
 .button:disabled {
     opacity: 0.5;
-    cursor: default;
     pointer-events: none;
 }
 
