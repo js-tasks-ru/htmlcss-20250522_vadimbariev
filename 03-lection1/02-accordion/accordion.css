@@ -1,13 +1,7 @@
-.accordion {
-    max-width: calc(var(--unit) * 185);
-    padding: calc(var(--unit) * 4);
-    margin: 0 auto;
-}
-
 .accordion__item {
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    padding: calc(var(--unit) * 6) 0 calc(var(--unit) * 6) calc(var(--unit) * 8);
+    padding: calc(var(--unit) * 6) calc(var(--unit) * 8);
     margin-bottom: calc(var(--unit) * 2);
     color: var(--black);
 }
@@ -24,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: var(--font-inter);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-text-m);
     line-height: var(--line-height-l);
