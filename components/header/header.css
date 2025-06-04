@@ -1,0 +1,4 @@
+.header {
+    padding: calc(var(--unit) * 24) 0 calc(var(--unit) * 19);
+    background-color: var(--white);
+}

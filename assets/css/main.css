@@ -1,5 +1,12 @@
 @import '../fonts/fonts.css';
 @import './modern-normalize.css';
+@import '../../components/text/text.css';
+@import '../../components/page/page.css';
+@import '../../components/preview/preview.css';
+@import '../../components/footer/footer.css';
+@import '../../components/header/header.css';
+@import '../../components/container/container.css';
+@import '../../components/card/card.css';
 
 :root {
     --unit: 4px;
@@ -58,4 +65,9 @@
 
 * {
     font-family: var(--font-roboto);
+}
+
+html,
+body {
+    height: 100%;
 }

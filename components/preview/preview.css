@@ -1,0 +1,4 @@
+.preview {
+    padding: calc(var(--unit) * 17) 0;
+    background-color: var(--grey-1);
+}
