@@ -2,6 +2,7 @@
     color: var(--black);
     font-family: var(--font-inter);
     font-style: var(--font-style-normal);
+    margin: 0
 }
 
 .text_h1 {
