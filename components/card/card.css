@@ -1,6 +1,26 @@
 .card {
+    display: flex;
+    flex-flow: column nowrap;
     width: 350px;
     height: 368px;
     border-radius: 12px;
-    background-color: var(--primary);
+    background-color: var(--white);
+}
+
+.card__title {
+    flex: 0 1 auto;
+    font-family: var(--font-roboto);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-title-s);
+    line-height: var(--line-height-title-s);
+    text-align: center;
+    color: var(--black);
+    padding: 0 24px;
+    padding-bottom: 30px;
+}
+
+.card__content {
+    flex: 1 1 auto;
+    padding: 80px 24px
 }

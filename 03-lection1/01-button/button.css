@@ -3,7 +3,7 @@
     font-size: var(--font-size-text-m);
     font-weight: var(--font-weight-medium);
     padding: calc(var(--unit) * 3) calc(var(--unit) * 16);
-    line-height: var(--line-height-xs);
+    line-height: var(--line-height-title-s);
     border-radius: 8px;
     text-align: center;
     border: none;
