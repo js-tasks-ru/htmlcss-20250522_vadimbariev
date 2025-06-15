@@ -5,6 +5,7 @@
     height: 368px;
     border-radius: 12px;
     background-color: var(--white);
+    padding: 80px 24px 30px;
 }
 
 .card__title {
@@ -16,11 +17,8 @@
     line-height: var(--line-height-title-s);
     text-align: center;
     color: var(--black);
-    padding: 0 24px;
-    padding-bottom: 30px;
 }
 
 .card__content {
     flex: 1 1 auto;
-    padding: 80px 24px
 }
